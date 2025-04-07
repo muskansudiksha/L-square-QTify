@@ -1,17 +1,22 @@
 import React from "react";
-import styles from "./HeroSection.module.css";
-import Headphone from "../../assets/vibrating-headphone 1.png"
+import styles from "./Hero.module.css";
 
-function HeroSection() {
-    return (
-        <div className={styles.hero}>
-            <div className={styles.heroTextDiv}>
-                <p>100 Thousand Songs, ad-free</p>
-                <p>Over thousands podcast episodes</p>
-            </div>
-            <img src={Headphone} alt="headphone"></img>
-        </div>
-    )
+function Hero() {
+  return (
+    <div className={styles.hero}>
+      <div>
+        <h1>100 Thousand Songs, ad-free</h1>
+        <h1>Over thousands podcast episodes</h1>
+      </div>
+      <div>
+        <img
+          src={require("../../assets/vibrating-headphone 1.png")}
+          width={212}
+          alt="headphones"
+        />
+      </div>
+    </div>
+  );
 }
 
-export default HeroSection;
+export default Hero;

@@ -1,13 +1,10 @@
-.nav {
-    background-color: var(--color--primary);
+.navbar {
+    background-color: var(--color-primary);
     height: 74px;
     width: 100vw;
+    padding: 0px 32px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-}
-
-.logo {
-    margin-top: 20px;
-    margin-left: 32px;
-}
+  }
+  
